@@ -9,7 +9,7 @@ email: 'srv.sumit@gmail.com'
 mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+#remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 # Plugins
 plugins: 
