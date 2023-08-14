@@ -1,15 +1,18 @@
 # Site
+title: I Think Blah
 name: 'I Think Blah'
-description: ''
-logo: 'assets/images/_tree_thinking_blah.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ''
-disqus: ''
-email: 'srv.sumit@gmail.com'
-mailchimp-list: ''
+description: Follow me
+baseurl: ""
+url: "" #jhkjhk
+logo: assets/images/_tree_thinking_blah.png
+favicon: assets/images/favicon.ico
+email: srv.sumit@gmail.com
 include: ["_pages"]
 permalink: /:title/
-#remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+
+include: ["_pages"]
+permalink: /:title/
 
 # Plugins
 plugins: 
@@ -24,8 +27,24 @@ authors:
       site:           https://www.ithinkblah.com
       avatar:         assets/images/avatar1.jpg
       bio:            "Hi, I am Sumit, and I think sometimes, often blah, I hope you like it!"
-      email:          
+      email:
       twitter:        https://twitter.com/sumsrvt
+
+    sal:
+      name:           Sal
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      email:          wowthemesnet@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+    jane:
+      name:           Jane
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatar2.jpg
+      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:
@@ -35,8 +54,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sumit
-      avatar: assets/images/avatar1.jpg
+      author: sal
+      avatar: /assets/images/avatar1.jpg
       
   # all pages
   - scope:
@@ -55,4 +74,3 @@ paginate: 10
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-plugins: [jekyll-include-cache]
