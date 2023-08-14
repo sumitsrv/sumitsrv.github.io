@@ -24,11 +24,15 @@ plugins:
 authors:
     sumit:
       name:           Sumit
-      site:           https://www.ithinkblah.com
-      avatar:         assets/images/avatar1.jpg
+      site:           https://sumitsrv.github.io
+      avatar:         assets/images/picofme5.png
       bio:            "Hi, I am Sumit, and I think sometimes, often blah, I hope you like it!"
-      email:
+      email:  srv.sumit@gmail.com
       twitter:        https://twitter.com/sumsrvt
+      social:
+        name: Sumit Srivastava
+        links:
+          - https://www.linkedin.com/in/sumit-srv/
  
 # Defaults
 defaults:
