@@ -804,3 +804,7 @@ div.a2a_full_footer {display:none;}
 	 }
  }
  
+.navbar-brand img {
+    max-height: 30px;
+    margin-right: 5px;
+}
