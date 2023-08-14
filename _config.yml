@@ -4,7 +4,7 @@ name: 'I Think Blah'
 description: Follow me
 baseurl: ""
 url: "" #jhkjhk
-logo: 'assets/images/tree_thinking_blah.png'
+logo: 'assets/images/tree_thinking_blah_mc.png'
 favicon: 'assets/images/favicon.ico'
 email: 'srv.sumit@gmail.com'
 include: ["_pages"]
