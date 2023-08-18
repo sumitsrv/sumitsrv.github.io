@@ -8,6 +8,7 @@ logo: 'assets/images/tree_thinking_blah_mc.png'
 favicon: 'assets/images/favicon.ico'
 email: 'srv.sumit@gmail.com'
 include: ["_pages"]
+disqus: 'sumitsrv-github-io'
 permalink: /:title/
 
 

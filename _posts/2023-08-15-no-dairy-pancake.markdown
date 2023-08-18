@@ -5,10 +5,11 @@ author: sumit
 categories: [ recipe ]
 image: assets/images/pancake.jpg
 tags: [featured]
+comments: true
 ---
-About an year, my life changed, when I discovered that I am allergic to dairy. The sad part ends here. Fast forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well - no added sugar! The following one has some cheating on the sugar front as it just makes it drool worthy.
+About a year ago, my life changed when I discovered that I am allergic to dairy. The sad part ends here. Fast-forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well—no added sugar! The following one has some cheating on the sugar front, as it just makes it drool-worthy.
 
-Without making you wait any further, I present my recipe, which I hate to call a pancake, but for the lack of a better term, I will. There are two versions of it, a vegan, and another a non-vegan one. 
+Without making you wait any further, I present my recipe, which I hate to call a pancake, but for the lack of a better term, I will. There are two versions of it, a vegan, and another, a non-vegan one.
 
 ## Non-vegan
 #### Ingredients
@@ -34,7 +35,7 @@ Without making you wait any further, I present my recipe, which I hate to call a
 6. Pour oil on a pan and heat it for a while.
 7. Pour the mixture (oats, chocolate, egg, banana) on the pan and spread it around.
 8. Flip the pancake to cook it well from the other side also.
-9. Once you are satisfied of it is cooked well, take it out on a plate.
+9. Once you are satisfied that it is cooked well, take it out on a plate.
 10. Chop another banana into small cubicles and spread them across the pancake.
 11. Add a generous amount of chopped nuts: walnuts, almonds, sunflower seeds, and pumpkin seeds.
 12. Pour honey or maple syrup on the top. You can be generous with it if you have a sweet tooth.
@@ -44,16 +45,18 @@ Without making you wait any further, I present my recipe, which I hate to call a
 
 ## Vegan
 #### Ingredients
-The ingredients remain the same as the non-vegan version except for the following.
+The ingredients remain the same as the non-vegan version, except for the following.
+    
     Remove:
         -   Eggs
         -   Honey
+    
     Add:
         -   Flour: 1 tsp
         -   Maple Syrup: 1 tsp
 
 #### The Recipe
-The receipe is the similar as the above,
+The recipe is the similar as the above,
 
 1. Mix half a teaspoon of flour with the oats and the chocolate powder before soaking. This will ensure that the mixture binds well when cooked. The quantity of water should be regulated to ensure that the mixture is not dry, but not running either.
 2. Do not add the egg. The gluten from the flour is the replacement.
@@ -64,5 +67,5 @@ The quantities mentioned above are all approximate and can be played around with
 
 I hope you like the *pancake*!
 
-Coming soon your way - a vegan, gluten free, no added sugar - CHEESCAKE!!! I am excited, **are you?**
+Coming soon your way -- a vegan, gluten free, no added sugar - CHEESCAKE!!! I am excited, **are you?**
 
