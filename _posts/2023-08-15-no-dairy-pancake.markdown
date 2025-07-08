@@ -2,7 +2,7 @@
 layout: post
 title:  "No Dairy Pancake"
 author: sumit
-categories: [ recipe ]
+categories: [ food, recipe ]
 image: assets/images/pancake.jpg
 tags: [featured]
 comments: true

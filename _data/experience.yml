@@ -1,0 +1,26 @@
+# Add your work experience from LinkedIn
+# Format: YAML list
+#
+# - company: "Company Name"
+#   title: "Job Title"
+#   start_date: "YYYY-MM"
+#   end_date: "YYYY-MM"  # or "present" for current positions
+#   location: "City, Country"
+#   description: "Job description"
+#   achievements: 
+#     - "Achievement 1"
+#     - "Achievement 2"
+#   technologies:
+#     - "Technology 1"
+#     - "Technology 2"
+
+- company: "Please add your work experience"
+  title: "Add your actual experience from LinkedIn"
+  start_date: "2025-07"
+  end_date: "present"
+  location: "LinkedIn Profile: https://www.linkedin.com/in/sumit-srv"
+  description: "This is a template. Please replace with your actual work experience."
+  achievements: 
+    - "Add your achievements"
+  technologies:
+    - "Add technologies used"

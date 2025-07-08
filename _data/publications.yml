@@ -1,0 +1,15 @@
+- title: "Understanding Visual Perception through Deep Learning"
+  authors: "Sumit Srivastava, et al."
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2024
+  doi: "10.1109/example"
+  url: "https://example.com/paper1"
+  abstract: "A comprehensive study on using deep learning models to understand human visual perception mechanisms."
+
+- title: "Neural Networks in Computer Vision: A Survey"
+  authors: "Sumit Srivastava, et al."
+  venue: "International Journal of Computer Vision"
+  year: 2023
+  doi: "10.1007/example"
+  url: "https://example.com/paper2"
+  abstract: "A survey of recent developments in applying neural networks to computer vision tasks."
