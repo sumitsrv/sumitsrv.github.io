@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: modern-post
 title:  "Why Do Languages Die?"
 author: sumit
 categories: [ philosophy ]

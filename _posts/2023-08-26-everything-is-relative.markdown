@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: modern-post
 title:  "Everything is Relative"
 author: sumit
 categories: [ philosophy ]

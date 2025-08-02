@@ -1,5 +1,37 @@
 /* Custom styles for the redesigned website */
 
+/* Post layout integration styles */
+.container {
+  margin-top: 0; /* Override if needed */
+}
+
+/* Ensure Bootstrap classes work with modern navbar */
+.jumbotron {
+  margin-top: 0;
+}
+
+.sticky-top-offset {
+  top: 80px; /* Adjust for modern navbar height */
+}
+
+/* Author link styling */
+.author-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.author-link:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Image size control for blog posts */
+.post-image-container img {
+  max-height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+
 /* About page styles */
 .about-header {
   text-align: center;

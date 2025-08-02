@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: modern-post
 title:  "The Priviledged!"
 author: sumit
 categories: [ philosophy ]

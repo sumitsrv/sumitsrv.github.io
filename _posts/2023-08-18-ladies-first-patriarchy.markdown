@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: modern-post
 title:  "Ladies First - A Mirage in The World of Partriarchy"
 author: sumit
 categories: [ philosophy ]
