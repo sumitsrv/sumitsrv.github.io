@@ -3,27 +3,28 @@ name: Build and Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Set this to your default branch
-  pull_request:
-    branches:
-      - main
+      - main  # Deploy when pushing to main branch
+  workflow_dispatch:  # Allow manual trigger
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper git operations
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -33,15 +34,28 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v4
+
+      - name: Install dependencies
+        run: bundle install
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --destination ./_site
         env:
           JEKYLL_ENV: production
 
+      - name: Test built site
+        run: |
+          if [ ! -f "./_site/index.html" ]; then
+            echo "Error: index.html not found in built site"
+            exit 1
+          fi
+          echo "Site built successfully"
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   deploy:
     environment:
@@ -53,4 +67,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

@@ -62,21 +62,12 @@ twitter:
   username: sumsrvt
   card: summary_large_image
 
-# Plugins
+# Plugins (GitHub Pages compatible)
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-compress-images
-  - jekyll-minifier
-  - jekyll-loading-lazy
-  - jekyll-toc
-
-# Plugin Settings
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
 
 # Progressive Web App
 pwa:
