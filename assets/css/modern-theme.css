@@ -466,6 +466,116 @@ body {
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
+/* About Page Content */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.about-content h1 {
+    font-size: 2.25rem;
+    color: var(--heading-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 1.75rem;
+    color: var(--heading-color);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.about-content h3 {
+    font-size: 1.25rem;
+    color: var(--heading-color);
+    margin-bottom: 0.75rem;
+}
+
+.about-content p {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-content ul li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.about-content ul li:before {
+    content: "▸";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.recent-activity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.recent-activity .section {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+}
+
+.recent-activity .section h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.recent-activity .section p {
+    margin-bottom: 0;
+}
+
+.recent-activity .section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.recent-activity .section a:hover {
+    color: var(--secondary-color);
+}
+
+.resume-section {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+    .recent-activity {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .about-content h1 {
+        font-size: 1.75rem;
+    }
+    
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
 /* Contact Page Styles */
 .contact-form {
     max-width: 600px;

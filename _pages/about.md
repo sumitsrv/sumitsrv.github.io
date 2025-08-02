@@ -15,37 +15,46 @@ permalink: /about/
   </div>
 </div>
 
-# Hello, I'm Sumit Srivastava
+<div class="about-content">
+    <h1>Hello, I'm Sumit Srivastava</h1>
 
-I am a researcher and software developer with a passion for solving complex problems through technology. My work spans across computer vision, machine learning, and software development. Beyond the world of technology, I enjoy exploring philosophical ideas and culinary adventures.
+    <p>I am a researcher and software developer with a passion for solving complex problems through technology. My work spans across computer vision, machine learning, and software development. Beyond the world of technology, I enjoy exploring philosophical ideas and culinary adventures.</p>
 
-## What I Do
+    <h2>What I Do</h2>
 
-- **Research**: Focus on computer vision and machine learning applications
-- **Software Development**: Building scalable and efficient solutions
-- **Philosophy**: Writing about perspectives on life and society
-- **Food**: Experimenting with recipes and sharing culinary experiences
+    <ul>
+        <li><strong>Research</strong>: Focus on computer vision and machine learning applications</li>
+        <li><strong>Software Development</strong>: Building scalable and efficient solutions</li>
+        <li><strong>Philosophy</strong>: Writing about perspectives on life and society</li>
+        <li><strong>Food</strong>: Experimenting with recipes and sharing culinary experiences</li>
+    </ul>
 
-## Recent Activity
+    <h2>Recent Activity</h2>
 
-<div class="recent-activity">
-  <div class="section">
-    <h3>Latest Research</h3>
-    {% assign latest_pubs = site.data.publications | sort: "year" | reverse | limit: 1 %}
-    {% for pub in latest_pubs %}
-    <p><strong>{{ pub.title }}</strong><br>
-    <em>{{ pub.venue }}</em> ({{ pub.year }})</p>
-    {% endfor %}
-  </div>
+    <div class="recent-activity">
+        <div class="section">
+            <h3>Latest Research</h3>
+            {% assign latest_pubs = site.data.publications | sort: "year" | reverse | limit: 1 %}
+            {% if latest_pubs.size > 0 %}
+            {% for pub in latest_pubs %}
+            <p><strong>{{ pub.title }}</strong><br>
+            <em>{{ pub.venue }}</em> ({{ pub.year }})</p>
+            {% endfor %}
+            {% else %}
+            <p>Research publications are being updated.</p>
+            {% endif %}
+        </div>
 
-  <div class="section">
-    <h3>Latest Blog Post</h3>
-    {% for post in site.posts limit:1 %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
-    <small>{{ post.date | date: "%B %d, %Y" }}</small></p>
-    {% endfor %}
-  </div>
-</div>
+        <div class="section">
+            <h3>Latest Blog Post</h3>
+            {% for post in site.posts limit:1 %}
+            <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+            <small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+            {% endfor %}
+        </div>
+    </div>
 
-[Download Resume]({{ site.baseurl }}/assets/resume.pdf){: .button}
+    <div class="resume-section">
+        <p><a href="{{ site.baseurl }}/assets/resume.pdf" class="btn btn-primary">Download Resume</a></p>
+    </div>
 </div>

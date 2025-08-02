@@ -1,3 +1,4 @@
+---
 layout: modern-default
 title: "Research"
 description: "My research work and publications in computer science and related fields"

@@ -1,3 +1,4 @@
+---
 layout: modern-default
 title: "Software Development"
 description: "My software development projects and professional experience"
