@@ -6,6 +6,7 @@ categories: [ philosophy ]
 image: assets/images/pancake.jpg
 tags: [featured]
 comments: true
+published: false  # This will hide the post
 ---
 About a year ago, my life changed when I discovered that I am allergic to dairy. The sad part ends here. Fast-forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well—no added sugar! The following one has some cheating on the sugar front, as it just makes it drool-worthy.
 
