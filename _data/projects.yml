@@ -1,0 +1,12 @@
+# Example projects data - Replace with your actual projects
+- name: "Example Project"
+  description: "Example project description. Replace this with your actual project data."
+  url: "https://example.com"
+  github: "https://github.com/username/project"
+  technologies:
+    - Python
+    - TensorFlow
+    - OpenCV
+  featured: true
+
+# Add more projects in the same format

@@ -1,19 +1,66 @@
-# Site
-title: I Think Blah
-name: 'I Think Blah'
-description: Follow me
+# Site Settings
+title: Sumit Srivastava
+name: 'Sumit Srivastava'
+description: 'Research • Software Development • Philosophy • Food'
+
+# Google Analytics
+google_analytics: G-XXXXXXXXXX # Replace with your Google Analytics tracking ID
 baseurl: ""
-url: "" #jhkjhk
-logo: 'assets/images/tree_thinking_blah_mc.png'
+url: "https://sumitsrv.github.io"
+logo: 'assets/images/picofme5.png'
 favicon: 'assets/images/favicon.ico'
 email: 'srv.sumit@gmail.com'
-include: ["_pages"]
 disqus: 'sumitsrv-github-io'
-permalink: /:title/
 
+# Social Media Links
+social:
+  linkedin: https://www.linkedin.com/in/sumit-srv
+  github: https://github.com/sumitsrv
+  google_scholar: https://scholar.google.com/citations?user=cQhsN6IAAAAJ&hl=en
+  instagram: https://www.instagram.com/srvsumit/
 
-include: ["_pages"]
+# Navigation
+navigation:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Software
+    url: /software/
+  - title: Philosophy
+    url: /philosophy/
+  - title: Food
+    url: /food/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - .git/
+
+# Performance Settings
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ["development"]
+  blanklines: false
+  profile: false
+
+# SEO & Social Sharing
+twitter:
+  username: sumsrvt
+  card: summary_large_image
 
 # Plugins
 plugins: 
@@ -21,6 +68,26 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-compress-images
+  - jekyll-minifier
+  - jekyll-loading-lazy
+  - jekyll-toc
+
+# Plugin Settings
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
+
+# Progressive Web App
+pwa:
+  enabled: true
+  sw_filename: service-worker.js
+  sw_src_filepath: service-worker.js
+  dest_js_directory: assets/js
+  precache_recent_posts_num: 5
+  precache_glob_patterns:
+    - "assets/css/*.css"
+    - "assets/js/*.js"
   
 authors:
     sumit:
@@ -37,29 +104,47 @@ authors:
  
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
     values:
-      layout: post
+      layout: modern-post
       author: sumit
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/picofme5.png
       
   # all pages
   - scope:
       path: "_pages"
     values:
-      layout: page
+      layout: modern-default
       
-# Syntax
-markdown: kramdown
-highlighter: rouge
+# Theme Settings
+theme_skin: classic # classic, dark, modern
+dark_mode_toggle: true
+enable_search: true
 
-# Paginate
-paginate: 10
-
+# Content Settings
+show_excerpts: true
+reading_time: true
+show_related_posts: true
+show_post_categories: true
+show_post_tags: true
+enable_social_sharing: true
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+include:
+  - "_pages"
+  
+exclude: 
+  - README.markdown
+  - package.json
+  - grunt.js
+  - Gruntfile.js
+  - Gruntfile.coffee
+  - node_modules
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - "**/*.erb"
+  - "**/site_template/**"

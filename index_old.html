@@ -1,0 +1,282 @@
+---
+title: "Home"
+layout: modern-default
+description: "Sumit Srivastava - Research, Engineering, Philosophy, and Food"
+---
+
+<div class="banner-landing">
+  <div class="banner-content">
+    <img src="{{ site.baseurl }}/assets/images/picofme5.png" alt="Sumit Srivastava" class="banner-profile-image">
+    <h1 class="banner-title">Sumit Srivastava</h1>
+    <p class="banner-tagline">Research • Software Development • Philosophy • Food</p>
+    <div class="banner-social-links">
+      <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="{{ site.social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="{{ site.social.google_scholar }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="{{ site.social.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<style>
+.banner-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.banner-content {
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 1.5rem;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 8px 32px rgba(60,60,90,0.08);
+  display: inline-block;
+}
+.banner-profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+  border: 4px solid #e0e7ef;
+  box-shadow: 0 2px 12px rgba(60,60,90,0.08);
+}
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #22223b;
+}
+.banner-tagline {
+  font-size: 1.3rem;
+  color: #4a4e69;
+  margin-bottom: 1.2rem;
+}
+.banner-social-links a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #4a4e69;
+  transition: color 0.2s;
+}
+.banner-social-links a:hover {
+  color: #22223b;
+}
+@media (max-width: 600px) {
+  .banner-content { padding: 1rem; }
+  .banner-title { font-size: 1.5rem; }
+  .banner-profile-image { width: 90px; height: 90px; }
+}
+</style>
+
+<div class="container">
+    <!-- About Section -->
+    <section class="about-section my-5">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <p class="lead">I am a researcher and software developer with a passion for solving complex problems through technology. My work spans across computer vision, machine learning, and software development. Beyond the world of technology, I enjoy exploring philosophical ideas and culinary adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Research -->
+    <section class="research-section my-5">
+        <h2>Latest Research</h2>
+        <div class="publications-grid">
+            {% assign recent_publications = site.data.publications | sort: "year" | reverse | limit: 2 %}
+            {% for pub in recent_publications %}
+            <div class="publication-card card">
+                <div class="card-body">
+                    <h3 class="h5">{{ pub.title }}</h3>
+                    <p class="authors">{{ pub.authors }}</p>
+                    <p class="venue"><em>{{ pub.venue }}</em> ({{ pub.year }})</p>
+                    {% if pub.doi %}
+                    <a href="https://doi.org/{{ pub.doi }}" class="btn btn-primary btn-sm" target="_blank">View Paper</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+            <div class="text-center mt-4">
+                <a href="{{ site.baseurl }}/research/" class="btn btn-primary">View All Research</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="blog-section my-5">
+        <h2>Latest Thoughts</h2>
+    <div class="row">
+        {% for post in site.posts limit:3 %}
+        <div class="col-md-4">
+            <div class="card post-card">
+                {% if post.image %}
+                <img src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" 
+                     alt="{{ post.title }}" class="card-img-top">
+                {% endif %}
+                <div class="card-body">
+                    <h3 class="h5">
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+                    </h3>
+                    <p class="card-text">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    <div class="post-meta">
+                        <small class="text-muted">
+                            {{ post.date | date: '%b %d, %Y' }} • 
+                            {% for category in post.categories %}
+                            <a href="{{ site.baseurl }}/categories.html#{{ category | downcase }}" class="text-muted">{{ category }}</a>
+                            {% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="text-center mt-4">
+        <a href="{{ site.baseurl }}/blog/" class="btn btn-primary">Read More</a>
+    </div>
+    </section>
+
+    <!-- Software Projects -->
+    <section class="projects-section my-5">
+        <h2>Featured Projects</h2>
+        <div class="row">
+            {% for project in site.data.projects limit:3 %}
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <h3 class="h5">{{ project.name }}</h3>
+                            {% if project.github %}
+                            <a href="{{ project.github }}" class="github-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                        <p>{{ project.description }}</p>
+                        <div class="technologies">
+                            {% for tech in project.technologies %}
+                            <span class="badge bg-primary">{{ tech }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ site.baseurl }}/software/" class="btn btn-primary">View All Projects</a>
+        </div>
+    </section>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[1] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if second_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ second_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post -->
+        {%- assign third_post = site.posts[2] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if third_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{third_post.url}}">
+                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        <span class="catlist">
+                        {% for category in third_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ third_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+    <!-- Philosophy -->
+    <section class="philosophy-section my-5">
+        <h2>Recent Philosophical Musings</h2>
+        <div class="row">
+            {% assign philosophy_posts = site.posts | where: "categories", "Philosophy" | limit: 2 %}
+            {% for post in philosophy_posts %}
+            <div class="col-md-6">
+                <div class="card post-card h-100">
+                    {% if post.image %}
+                    <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" class="card-img-top">
+                    {% endif %}
+                    <div class="card-body">
+                        <h3 class="h5">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+                        </h3>
+                        <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ site.baseurl }}/philosophy/" class="btn btn-primary">More Thoughts</a>
+        </div>
+    </section>
+
+    <!-- Food Blog -->
+    <section class="food-section my-5">
+        <h2>Latest Recipes & Food Adventures</h2>
+        <div class="row">
+            {% assign food_posts = site.posts | where: "categories", "Food" | limit: 2 %}
+            {% for post in food_posts %}
+            <div class="col-md-6">
+                <div class="card post-card h-100">
+                    {% if post.image %}
+                    <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" class="card-img-top">
+                    {% endif %}
+                    <div class="card-body">
+                        <h3 class="h5">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+                        </h3>
+                        <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ site.baseurl }}/food/" class="btn btn-primary">More Food Adventures</a>
+        </div>
+    </section>
+</div>

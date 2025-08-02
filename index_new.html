@@ -1,0 +1,81 @@
+---
+title: "Home"
+layout: modern-default
+description: "Sumit Srivastava - Research, Engineering, Philosophy, and Food"
+---
+
+<div class="banner-landing">
+  <div class="banner-content">
+    <img src="{{ site.baseurl }}/assets/images/picofme5.png" alt="Sumit Srivastava" class="banner-profile-image">
+    <h1 class="banner-title">Sumit Srivastava</h1>
+    <p class="banner-tagline">Research • Software Development • Philosophy • Food</p>
+    <div class="banner-social-links">
+      <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="{{ site.social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="{{ site.social.google_scholar }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="{{ site.social.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+    <!-- Latest Posts Section -->
+    <section class="recent-posts-section">
+        <h2>Latest Posts</h2>
+        <div class="posts-grid">
+            {% for post in site.posts limit:6 %}
+            <article class="post-card">
+                {% if post.image %}
+                <div class="post-image">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-date">{{ post.date | date: '%b %d, %Y' }}</span>
+                        {% if post.categories.size > 0 %}
+                        <span class="post-category">{{ post.categories.first }}</span>
+                        {% endif %}
+                    </div>
+                    <h3 class="post-title">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="text-center">
+            <a href="{{ site.baseurl }}/blog/" class="btn btn-primary">View All Posts</a>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            {% assign software_posts = site.posts | where: "categories", "Software" | limit: 3 %}
+            {% for post in software_posts %}
+            <div class="project-card">
+                {% if post.image %}
+                <div class="project-image">
+                    <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
+                </div>
+                {% endif %}
+                <div class="project-content">
+                    <h3 class="project-title">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="project-description">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center">
+            <a href="{{ site.baseurl }}/software/" class="btn btn-secondary">View All Projects</a>
+        </div>
+    </section>
+</div>

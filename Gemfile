@@ -1,18 +1,15 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
+# GitHub Pages - fix version to match GitHub's environment
+gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "webrick", "~> 1.8"  # Required for Ruby 3+
 
-# If you have any plugins, put them here!
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# These plugins are automatically included by github-pages gem
 group :jekyll_plugins do
-    gem 'jekyll-feed'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-paginate'
-    gem 'jekyll-seo-tag'
+    gem "jekyll-feed", "~> 0.15.1"
+    gem "jekyll-sitemap", "~> 1.4.0"
+    gem "jekyll-paginate", "~> 1.1.0"
+    gem "jekyll-seo-tag", "~> 2.8.0"
 end
+
+

@@ -1,0 +1,12 @@
+# Example experience data - Replace with your actual experience
+- title: "Senior Software Engineer"
+  company: "Example Company"
+  start_date: 2020-01-01
+  end_date: 2025-07-08
+  description: "Example description of your role and achievements. Replace this with your actual experience data from LinkedIn."
+  technologies:
+    - Python
+    - Machine Learning
+    - Computer Vision
+
+# Add more experiences in the same format

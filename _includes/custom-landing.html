@@ -1,0 +1,78 @@
+<div class="hero">
+    <div class="container">
+        <div class="profile-section">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}" class="profile-image">
+            <h1>{{ site.name }}</h1>
+            <p class="lead">{{ site.description }}</p>
+            <div class="social-links">
+                <a href="{{ site.author.links[0].url }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ site.author.links[1].url }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="{{ site.author.links[2].url }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="{{ site.author.links[3].url }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- About Section -->
+    <section class="about-section my-5">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <p class="lead">I am a researcher and software developer with a passion for solving complex problems through technology. My work spans across computer vision, machine learning, and software development. Beyond the world of technology, I enjoy exploring philosophical ideas and culinary adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Research -->
+    <section class="research-section my-5">
+        <h2>Latest Research</h2>
+        <div class="publications-grid">
+            {% assign recent_publications = site.data.publications | sort: "year" | reverse | limit: 2 %}
+            {% for pub in recent_publications %}
+            <div class="publication-card card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ pub.title }}</h5>
+                    <p class="card-text"><strong>{{ pub.authors }}</strong><br><em>{{ pub.venue }}</em> ({{ pub.year }})</p>
+                    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>{% endif %}
+                    {% if pub.pdf %} | <a href="{{ pub.pdf }}" target="_blank">PDF</a>{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Featured Blog Posts -->
+    <section class="featured-posts-section my-5">
+        <h2>Featured Blog Posts</h2>
+        <div class="row">
+            {% assign featured_posts = site.posts | where_exp: "post", "post.tags contains 'featured'" | limit: 2 %}
+            {% for post in featured_posts %}
+            <div class="col-md-6">
+                <div class="card h-100">
+                    {% if post.image %}
+                    <img src="{{ site.baseurl }}/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                        <p class="card-text">{{ post.excerpt }}</p>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links-section my-5">
+        <h2>Explore</h2>
+        <div class="row">
+            <div class="col-md-3"><a href="{{ site.baseurl }}/research/" class="btn btn-outline-primary btn-block">Research</a></div>
+            <div class="col-md-3"><a href="{{ site.baseurl }}/software/" class="btn btn-outline-primary btn-block">Software</a></div>
+            <div class="col-md-3"><a href="{{ site.baseurl }}/philosophy/" class="btn btn-outline-primary btn-block">Philosophy</a></div>
+            <div class="col-md-3"><a href="{{ site.baseurl }}/food/" class="btn btn-outline-primary btn-block">Food</a></div>
+        </div>
+    </section>
+</div>
