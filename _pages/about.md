@@ -12,6 +12,7 @@ permalink: /about/
       <a href="{{ site.social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
       <a href="{{ site.social.google_scholar }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
       <a href="{{ site.social.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="{{ site.social.twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
     </div>
   </aside>
 
