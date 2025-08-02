@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "No Dairy Pancake"
+title:  "Yes Sir!"
 author: sumit
 categories: [ philosophy ]
 image: assets/images/pancake.jpg

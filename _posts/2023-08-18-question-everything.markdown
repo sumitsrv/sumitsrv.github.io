@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "No Dairy Pancake"
+title:  "Question Everything"
 author: sumit
 categories: [ philosophy ]
 image: assets/images/pancake.jpg

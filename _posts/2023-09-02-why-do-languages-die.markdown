@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "No Dairy Pancake"
+title:  "Why Do Languages Die?"
 author: sumit
 categories: [ philosophy ]
 image: assets/images/pancake.jpg

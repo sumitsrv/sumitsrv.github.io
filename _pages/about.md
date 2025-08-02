@@ -1,8 +1,10 @@
-layout: page
+---
+layout: modern-default
 title: About Me
 permalink: /about/
 ---
 
+<div class="container">
 <div class="about-header">
   <img src="{{ site.baseurl }}/assets/images/picofme5.png" alt="Sumit Srivastava" class="profile-image">
   <div class="social-links">
@@ -46,3 +48,4 @@ I am a researcher and software developer with a passion for solving complex prob
 </div>
 
 [Download Resume]({{ site.baseurl }}/assets/resume.pdf){: .button}
+</div>
