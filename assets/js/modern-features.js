@@ -19,7 +19,7 @@ function initDarkMode() {
         });
 
         // Set initial theme
-        const savedTheme = localStorage.getItem('theme') || 'light';
+        const savedTheme = localStorage.getItem('theme') || 'dark';
         document.documentElement.setAttribute('data-theme', savedTheme);
         updateIcon();
     }

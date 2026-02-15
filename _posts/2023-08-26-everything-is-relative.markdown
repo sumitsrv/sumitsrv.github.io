@@ -3,70 +3,16 @@ layout: modern-post
 title:  "Everything is Relative"
 author: sumit
 categories: [ philosophy ]
-image: assets/images/pancake.jpg
 tags: [featured]
 comments: true
-published: false  # This will hide the post
 ---
-About a year ago, my life changed when I discovered that I am allergic to dairy. The sad part ends here. Fast-forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well—no added sugar! The following one has some cheating on the sugar front, as it just makes it drool-worthy.
+Our understanding of reality is limited by how much we know. And how much we know is limited by the tiny slice of the world we happened to be born into.
 
-Without making you wait any further, I present my recipe, which I hate to call a pancake, but for the lack of a better term, I will. There are two versions of it, a vegan, and another, a non-vegan one.
+Take something as simple as eating with your hands. Some people find it bizarre—uncivilised, even. But didn't *everyone* once eat with their hands? What changed? Was it a specific event? A hygiene revolution? A marketing campaign in favour of cutlery? Or was it simply the lower classes copying the upper-class elites, as they always do, until the original meaning was lost entirely? Nobody questions it. It is just *how things are done*. But "how things are done" is never an answer. It is an excuse dressed up as tradition.
 
-## Non-vegan
-#### Ingredients
-    -   Rolled Oats (preferably whole grain): 1 tbsp
-    -   Pure Cacao Powder: 1 tsp
-    -   Water
-    -   Egg: 1
-    -   Ripe Banana: 2
-    -   Oil (your choice):  1 tsp
-    -   Walnuts: 4 kernels, soaked overnight (no hard limit on quantity)
-    -   Almonds: 6, soaked overnight (no hard limit on quantity)
-    -   Sunflower seeds: 1 tbsp
-    -   Pumpkin seeds: 1 tbsp
-    -   Honey or Maple Syrup: 1 tsp
-    -   Pistachio: Be generous, chopped
-    
-#### Let's Cook!
-1. Take the oats in a cup or bowl.
-2. Add the pure Cocoa powder to the oats. You can be generous with the chocolate as per your liking.
-3. Add a small amount of water to the oats and let it soak for 10-15 mins.
-4. Add the egg to the soaked oats and whisk it to make a mixture.
-5. Chop a ripe banana in small cubicles and add it to the above mixture.
-6. Pour oil on a pan and heat it for a while.
-7. Pour the mixture (oats, chocolate, egg, banana) on the pan and spread it around.
-8. Flip the pancake to cook it well from the other side also.
-9. Once you are satisfied that it is cooked well, take it out on a plate.
-10. Chop another banana into small cubicles and spread them across the pancake.
-11. Add a generous amount of chopped nuts: walnuts, almonds, sunflower seeds, and pumpkin seeds.
-12. Pour honey or maple syrup on the top. You can be generous with it if you have a sweet tooth.
-13. Spread roughly chopped pistachios on top.
+The one thing history teaches us—if we care to listen—is that context matters. But how much context? Go one layer deep into the Israel-Palestine conflict and you have a land dispute. Go two layers and you find colonial borders drawn by strangers. Go three and you uncover the Cold War chess game between Russia and the US that destabilised the entire Middle East, which in turn fed terrorism across the world, which in turn shaped the politics you vote on today. The more layers you peel, the more there are. There is no bottom. There is only *more*.
 
-**Enjoy!**
+Buddha said, "Desire is the root cause of all suffering." And if you look around, he was not wrong. The person who has more money is no more and no less happy than the one who barely has enough to eat. This is not an assumption—it is arithmetic. Everyone has their own fights. The sources differ; the weight does not. The one without enough food is consumed by the stress of finding the next meal. The one with abundant wealth is consumed by the fear of losing it—of losing the power, the status, the lifestyle, and yes, eventually the meal too. One sleeps in a mansion. The other on the footpath. Both lie awake.
 
-## Vegan
-#### Ingredients
-The ingredients remain the same as the non-vegan version, except for the following.
-    
-    Remove:
-        -   Eggs
-        -   Honey
-    
-    Add:
-        -   Flour: 1 tsp
-        -   Maple Syrup: 1 tsp
-
-#### The Recipe
-The recipe is the similar as the above,
-
-1. Mix half a teaspoon of flour with the oats and the chocolate powder before soaking. This will ensure that the mixture binds well when cooked. The quantity of water should be regulated to ensure that the mixture is not dry, but not running either.
-2. Do not add the egg. The gluten from the flour is the replacement.
-3. Use maple syrup instead of honey.
-
-The quantities mentioned above are all approximate and can be played around with based on personal preferences, .e.g, instead of two bananas use only one with half of it in each of the stages mentioned.
-
-
-I hope you like the *pancake*!
-
-Coming soon your way -- a vegan, gluten free, no added sugar - CHEESCAKE!!! I am excited, **are you?**
+Everything is relative. Your pain, your privilege, your perspective. The sooner you accept that, the sooner you stop judging the world through the only lens you were handed—and start building new ones.
 
