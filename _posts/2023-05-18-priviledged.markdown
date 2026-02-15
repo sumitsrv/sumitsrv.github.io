@@ -1,6 +1,6 @@
 ---
 layout: modern-post
-title:  "The Priviledged!"
+title:  "The Privileged!"
 author: sumit
 categories: [ philosophy ]
 image: assets/images/priviledged_landscape.png

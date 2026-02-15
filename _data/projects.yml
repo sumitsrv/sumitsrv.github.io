@@ -1,12 +1,39 @@
-# Example projects data - Replace with your actual projects
-- name: "Example Project"
-  description: "Example project description. Replace this with your actual project data."
-  url: "https://example.com"
-  github: "https://github.com/username/project"
+- name: "Conversational Agent for Personalized Explanations"
+  description: "A dialogue system that generates interactive, personalized explanations using lexical alignment techniques. Built as part of PhD research at the University of Twente under the EU-funded NL4XAI project."
+  url: "https://nl4xai.eu/"
+  github: "https://github.com/sumitsrv"
   technologies:
     - Python
-    - TensorFlow
-    - OpenCV
+    - Rasa
+    - PyTorch
+    - Large Language Models
+    - spaCy
   featured: true
 
-# Add more projects in the same format
+- name: "Real-time Ad Bidding Platform"
+  description: "Revamped a high-performance real-time bidding platform handling 1.5M requests per second with sub-2ms p99 latency using event-driven architecture and database optimizations at MiQ Digital."
+  technologies:
+    - Java
+    - Vert.x
+    - PostgreSQL
+    - AWS
+    - Nginx
+  featured: true
+
+- name: "Scalable Log Shipping System"
+  description: "Built a horizontally scalable system to compress and ship up to 90 TB of logs daily to AWS S3, enabling efficient data warehousing and analytics."
+  technologies:
+    - Java
+    - AWS S3
+    - Distributed Systems
+  featured: true
+
+- name: "I Think Blah — Personal Website"
+  description: "This website! A Jekyll-based personal site featuring research, software portfolio, philosophy blog, and food recipes."
+  url: "https://sumitsrv.github.io"
+  github: "https://github.com/sumitsrv/sumitsrv.github.io"
+  technologies:
+    - Jekyll
+    - HTML/CSS
+    - JavaScript
+  featured: false

@@ -2,16 +2,45 @@
 function initDarkMode() {
     const darkModeToggle = document.getElementById('darkModeToggle');
     if (darkModeToggle) {
+        const updateIcon = () => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const icon = darkModeToggle.querySelector('i');
+            if (icon) {
+                icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+            }
+        };
+
         darkModeToggle.addEventListener('click', () => {
             document.documentElement.setAttribute('data-theme', 
                 document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'
             );
             localStorage.setItem('theme', document.documentElement.getAttribute('data-theme'));
+            updateIcon();
         });
 
         // Set initial theme
         const savedTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', savedTheme);
+        updateIcon();
+    }
+}
+
+// Mobile Hamburger Menu
+function initHamburger() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        // Close menu when a link is clicked
+        navLinks.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
     }
 }
 
@@ -84,6 +113,7 @@ function addReadingTime() {
 // Initialize all features
 document.addEventListener('DOMContentLoaded', () => {
     initDarkMode();
+    initHamburger();
     initSearch();
     initSocialShare();
     addReadingTime();

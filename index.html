@@ -75,30 +75,24 @@ description: "Sumit Srivastava - Research, Engineering, Philosophy, and Food"
     <!-- Featured Projects Section -->
     <section class="projects-section">
         <h2>Featured Projects</h2>
-        {% assign software_posts = site.posts | where: "categories", "Software" | slice: 0, 3 %}
-        {% if software_posts.size > 0 %}
         <div class="projects-grid">
-            {% for post in software_posts %}
+            {% for project in site.data.projects %}
+            {% if project.featured %}
             <div class="project-card">
-                {% if post.image %}
-                <div class="project-image">
-                    <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
-                </div>
-                {% endif %}
                 <div class="project-content">
                     <h3 class="project-title">
-                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                        {% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}
                     </h3>
-                    <p class="project-description">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    <p class="project-description">{{ project.description | truncate: 120 }}</p>
+                    <p class="project-tech">{{ project.technologies | join: " · " }}</p>
+                    {% if project.github %}<a href="{{ project.github }}" class="btn btn-sm btn-secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>{% endif %}
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="text-center">
             <a href="{{ site.baseurl }}/software/" class="btn btn-secondary">View All Projects</a>
         </div>
-        {% else %}
-        <p class="text-center">No software projects available yet.</p>
-        {% endif %}
     </section>
 </div>

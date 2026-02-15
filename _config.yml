@@ -23,15 +23,19 @@ social:
 # Navigation
 navigation:
   - title: About
-    url: /
+    url: /about/
   - title: Research
     url: /research/
   - title: Software
     url: /software/
+  - title: Blog
+    url: /blog/
   - title: Philosophy
     url: /philosophy/
   - title: Food
     url: /food/
+  - title: Contact
+    url: /contact/
 
 # Build settings
 markdown: kramdown

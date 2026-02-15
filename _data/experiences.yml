@@ -1,12 +1,92 @@
-# Example experience data - Replace with your actual experience
-- title: "Senior Software Engineer"
-  company: "Example Company"
-  start_date: 2020-01-01
-  end_date: 2025-07-08
-  description: "Example description of your role and achievements. Replace this with your actual experience data from LinkedIn."
+- title: "Senior Backend Engineer"
+  company: "Tibo Energy"
+  start_date: "2025-02"
+  end_date: "Present"
+  description: "Designing, implementing, and maintaining features for an industrial energy management software platform."
+  technologies:
+    - TypeScript
+    - Node.js
+    - MySQL
+    - Cassandra
+
+- title: "Chief Technology Officer (Part-time)"
+  company: "BrainBite.ai"
+  start_date: "2024-01"
+  end_date: "Present"
+  description: "Defining the technical vision and architecture for AI-powered content generation systems."
   technologies:
     - Python
-    - Machine Learning
-    - Computer Vision
+    - Large Language Models
+    - GenAI
+    - System Architecture
 
-# Add more experiences in the same format
+- title: "Doctoral Researcher"
+  company: "University of Twente"
+  start_date: "2020-01"
+  end_date: "2024-12"
+  description: "Conducted NLP research on personalization in conversational agents using lexical alignment, grounded in psycholinguistics and cognitive science. Designed and implemented conversational agents for generating interactive, personalized textual explanations. Conducted empirical user studies evaluating trust, persuasiveness, cognitive load, and information uptake. Supervised eight MSc and BSc students. Marie Skłodowska-Curie fellow (NL4XAI)."
+  technologies:
+    - Python
+    - NLP
+    - Large Language Models
+    - Rasa
+    - PyTorch
+    - spaCy
+    - Experiment Design
+    - Scientific Writing
+
+- title: "MSc Researcher in Artificial Intelligence"
+  company: "KU Leuven"
+  start_date: "2019-09"
+  end_date: "2020-05"
+  description: "Conducted research on automated interpretation of simple metaphors using Bayesian inference (Rational Speech Act model) and a large-scale concept map (ConceptNet). Proposed and developed the research topic independently."
+  technologies:
+    - Python
+    - Bayesian Inference
+    - NLP
+    - ConceptNet
+
+- title: "Team Manager & Technical Lead"
+  company: "MiQ Digital"
+  start_date: "2016-01"
+  end_date: "2019-08"
+  description: "Led and mentored a team of seven engineers while owning seven production services. Revamped a real-time ad bidding platform handling 1.5M RPS, achieving sub-2ms p99 latency via event-driven architecture and database optimizations. Defined company-wide code and documentation standards."
+  technologies:
+    - Java
+    - Vert.x
+    - PostgreSQL
+    - AWS
+    - Nginx
+
+- title: "Senior Software Engineer"
+  company: "MiQ Digital"
+  start_date: "2015-01"
+  end_date: "2016-12"
+  description: "Developed a real-time bid modification service processing up to 1.5M requests per second. Modernized 70% of a core interface service through refactoring, library upgrades, and improved modularity. Built a horizontally scalable system to compress and ship up to 90 TB of logs daily to AWS S3."
+  technologies:
+    - Java
+    - AWS S3
+    - PostgreSQL
+    - Distributed Systems
+
+- title: "Software Engineer"
+  company: "MiQ Digital"
+  start_date: "2013-09"
+  end_date: "2014-12"
+  description: "Designed a data ingestion service supporting 12+ protocols and 30+ heterogeneous data sources. Implemented custom processing pipelines storing data in AWS S3 and Redshift. Mentored new engineers and contributors."
+  technologies:
+    - Java
+    - AWS Redshift
+    - AWS S3
+    - Data Pipelines
+
+- title: "Software Engineer"
+  company: "Apostek Softwares Pvt. Ltd."
+  start_date: "2012-07"
+  end_date: "2013-08"
+  description: "Worked on a mobile advertising platform and central point currency system. Developed critical enhancements, bug fixes, and new features across different portals."
+  technologies:
+    - Ruby on Rails
+    - Cassandra
+    - MySQL
+    - JavaScript

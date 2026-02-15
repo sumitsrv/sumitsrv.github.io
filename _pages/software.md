@@ -13,12 +13,12 @@ permalink: /software/
 
     <section class="experience-section">
         <h2>Professional Experience</h2>
-        {% assign experiences = site.data.experiences | sort: "start_date" | reverse %}
+        {% assign experiences = site.data.experiences %}
         {% if experiences.size > 0 %}
         {% for exp in experiences %}
         <div class="experience-item">
             <h3>{{ exp.title }} at {{ exp.company }}</h3>
-            <p><em>{{ exp.start_date | date: "%B %Y" }} - {{ exp.end_date | date: "%B %Y" }}</em></p>
+            <p><em>{{ exp.start_date }} – {{ exp.end_date }}</em></p>
             <p>{{ exp.description }}</p>
             <h4>Technologies used:</h4>
             <ul>
@@ -36,7 +36,7 @@ permalink: /software/
 
     <section class="projects-section">
         <h2>Open Source Projects</h2>
-        {% assign projects = site.data.projects | sort: "featured" | reverse %}
+        {% assign projects = site.data.projects %}
         {% if projects.size > 0 %}
         {% for project in projects %}
         <div class="project-item">
@@ -55,11 +55,12 @@ permalink: /software/
     <section class="skills-section">
         <h2>Technical Skills</h2>
         <ul>
-            <li><strong>Programming Languages:</strong> Python, JavaScript, Java, C++</li>
-            <li><strong>Web Technologies:</strong> HTML5, CSS3, React, Node.js, Django</li>
-            <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-learn</li>
-            <li><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB</li>
-            <li><strong>Tools & Platforms:</strong> Git, Docker, AWS, Linux</li>
+            <li><strong>Programming Languages:</strong> Java, Python, TypeScript, JavaScript, Ruby</li>
+            <li><strong>AI & NLP:</strong> PyTorch, Rasa, spaCy, NLTK, Large Language Models, Google DialogFlow</li>
+            <li><strong>Backend & Web Servers:</strong> Vert.x, Node.js, Nginx, Apache Tomcat, Ruby on Rails</li>
+            <li><strong>Databases:</strong> PostgreSQL, MySQL, Cassandra, MongoDB, AWS Redshift</li>
+            <li><strong>Cloud & Infrastructure:</strong> AWS (S3, Redshift), Google Cloud, Docker, Git, Linux</li>
+            <li><strong>Research:</strong> Experiment Design, Statistical Analysis, Scientific Writing, User Studies</li>
         </ul>
         
         <p>For more details about my professional experience, please visit my <a href="https://www.linkedin.com/in/sumit-srv">LinkedIn profile</a>.</p>

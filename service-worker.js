@@ -6,9 +6,10 @@ const PRECACHE_ASSETS = [
   '/',
   '/assets/css/main.css',
   '/assets/css/theme.css',
-  '/assets/js/bootstrap.js',
-  '/assets/js/lunr.js',
+  '/assets/css/modern-theme.css',
+  '/assets/css/blog-post.css',
   '/assets/js/theme.js',
+  '/assets/js/modern-features.js',
   '/assets/images/tree_thinking_blah_mc.png',
   '/assets/images/favicon.ico'
 ];

@@ -1,6 +1,6 @@
 ---
 layout: modern-post
-title:  "Ladies First - A Mirage in The World of Partriarchy"
+title:  "Ladies First - A Mirage in The World of Patriarchy"
 author: sumit
 categories: [ philosophy ]
 image: assets/images/ladies_first.png

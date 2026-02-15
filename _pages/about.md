@@ -39,7 +39,7 @@ permalink: /about/
       <div class="cta-buttons" style="margin:1.5em 0;">
         <a href="{{ site.social.linkedin }}" class="btn btn-secondary" target="_blank">LinkedIn</a>
         <a href="{{ site.baseurl }}/research" class="btn btn-secondary">Research</a>
-        <a href="{{ site.baseurl }}/assets/resume.pdf" class="btn btn-primary">Curriculum Vitae</a>
+        <a href="{{ site.baseurl }}/CV_Sumit_Srivastava_NLP_Research-12.pdf" class="btn btn-primary" target="_blank">Curriculum Vitae</a>
       </div>
 
       <h3>Research Interests</h3>
@@ -54,15 +54,11 @@ permalink: /about/
       <div class="recent-activity">
         <div class="section">
           <h4>Latest Research Publication</h4>
-          {% assign latest_pubs = site.data.publications | sort: "year" | reverse | limit: 1 %}
-          {% if latest_pubs.size > 0 %}
-          {% for pub in latest_pubs %}
+          {% for pub in site.data.publications limit:1 %}
           <p><strong>{{ pub.title }}</strong><br>
-          <em>{{ pub.venue }}</em> ({{ pub.year }})</p>
+          <em>{{ pub.venue }}</em> ({{ pub.year }}){% if pub.status %} — <em>{{ pub.status }}</em>{% endif %}</p>
           {% endfor %}
-          {% else %}
-          <p>Research publications are being updated.</p>
-          {% endif %}
+        </div>
         </div>
         <div class="section">
           <h4>Recent Blog Post</h4>
