@@ -650,6 +650,41 @@ body {
     margin: 0;
 }
 
+/* Category Filter Tabs */
+.category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color, #e5e7eb);
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    background: none;
+    border: 1.5px solid var(--border-color, #e5e7eb);
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.filter-btn:hover {
+    border-color: var(--accent, #2563eb);
+    color: var(--accent, #2563eb);
+}
+
+.filter-btn.active {
+    background: var(--accent, #2563eb);
+    border-color: var(--accent, #2563eb);
+    color: #fff;
+}
+
 .all-posts-section {
     padding-bottom: 3rem;
 }
