@@ -8,7 +8,7 @@ tags: [featured]
 comments: true
 published: false  # This will hide the post
 ---
-About a year ago, my life changed when I discovered that I am allergic to dairy. The sad part ends here. Fast-forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well—no added sugar! The following one has some cheating on the sugar front, as it just makes it drool-worthy.
+About a year ago, my life changed when I discovered that I am allergic to dairy. The sad part ends here. Fast-forward, I have been discovering recipes that do not aggravate my allergies. Guess what, I have managed to keep them healthier as well, no added sugar! The following one has some cheating on the sugar front, as it just makes it drool-worthy.
 
 Without making you wait any further, I present my recipe, which I hate to call a pancake, but for the lack of a better term, I will. There are two versions of it, a vegan, and another, a non-vegan one.
 
