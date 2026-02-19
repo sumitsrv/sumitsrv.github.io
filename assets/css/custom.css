@@ -298,3 +298,43 @@
     }
 }
 
+/* Visitor Counter Styling */
+.visitor-counter-container {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.visitor-counter-container a {
+    display: inline-block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.visitor-counter-container a:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.visitor-counter-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode support for visitor counter */
+[data-theme="dark"] .visitor-counter-container img {
+    opacity: 0.9;
+    filter: brightness(0.9);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .visitor-counter-container {
+        margin: 1rem 0;
+    }
+    
+    .visitor-counter-container img {
+        max-width: 100%;
+    }
+}
+
