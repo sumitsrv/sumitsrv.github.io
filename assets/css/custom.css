@@ -323,8 +323,7 @@
 
 /* Dark mode support for visitor counter */
 [data-theme="dark"] .visitor-counter-container img {
-    opacity: 0.9;
-    filter: brightness(0.9);
+    filter: brightness(0.85);
 }
 
 /* Responsive adjustments */

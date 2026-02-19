@@ -41,6 +41,9 @@ visitor_counter:
   columns: 3              # Number of columns (2-8)
   maxflags: 12            # Max flags to show (1-255)
   label: 'Visitors'       # Label text
+  background_color: 'FFFFFF'  # Background color (hex, no #)
+  text_color: '000000'        # Text color (hex, no #)
+  border_color: 'CCCCCC'      # Border color (hex, no #)
 ```
 
 ### Step 3: Deploy
@@ -119,6 +122,17 @@ You can customize Flag Counter directly in `_config.yml`:
 - `columns`: Number of columns to display flags (2-8)
 - `maxflags`: Maximum number of country flags to show (1-255)
 - `label`: Custom label text (e.g., 'Visitors', 'Views', 'Countries')
+- `background_color`: Background color in hex format without # (e.g., 'FFFFFF' for white)
+- `text_color`: Text color in hex format without # (e.g., '000000' for black)
+- `border_color`: Border color in hex format without # (e.g., 'CCCCCC' for light gray)
+
+**Example for dark theme:**
+```yaml
+visitor_counter:
+  background_color: '2c3e50'  # Dark background
+  text_color: 'ecf0f1'        # Light text
+  border_color: '34495e'      # Dark border
+```
 
 ## Disabling the Counter
 
@@ -191,6 +205,9 @@ visitor_counter:
   columns: 3
   maxflags: 12
   label: 'Visitors'
+  background_color: 'FFFFFF'
+  text_color: '000000'
+  border_color: 'CCCCCC'
 ```
 
 After setting this up, your footer will display a visitor counter showing unique visitors from different countries with their flags!
