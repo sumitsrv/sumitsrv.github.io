@@ -7,7 +7,7 @@ description: 'Research • Software Development • Philosophy • Food'
 google_analytics: G-XXXXXXXXXX # Replace with your Google Analytics tracking ID
 baseurl: ""
 url: "https://sumitsrv.github.io"
-logo: 'assets/images/picofme5.png'
+logo: 'assets/images/sumit-srivastava-profile.jpg'
 favicon: 'assets/images/favicon.ico'
 email: 'srv.sumit@gmail.com'
 disqus: 'sumitsrv-github-io'
@@ -85,7 +85,7 @@ authors:
     sumit:
       name:           Sumit
       site:           https://sumitsrv.github.io
-      avatar:         assets/images/picofme5.png
+      avatar:         assets/images/sumit-srivastava-profile.jpg
       bio:            "Hi, I am Sumit, and I think sometimes, often blah, I hope you like it!"
       email:  srv.sumit@gmail.com
       twitter:        https://twitter.com/sumsrvt
@@ -102,7 +102,7 @@ defaults:
     values:
       layout: modern-post
       author: sumit
-      avatar: /assets/images/picofme5.png
+      avatar: /assets/images/sumit-srivastava-profile.jpg
       
   # all pages
   - scope:
