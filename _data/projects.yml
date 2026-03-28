@@ -28,7 +28,7 @@
     - Distributed Systems
   featured: true
 
-- name: "I Think Blah — Personal Website"
+- name: "I Think Blah - Personal Website"
   description: "This website! A Jekyll-based personal site featuring research, software portfolio, philosophy blog, and food recipes."
   url: "https://sumitsrv.github.io"
   github: "https://github.com/sumitsrv/sumitsrv.github.io"
