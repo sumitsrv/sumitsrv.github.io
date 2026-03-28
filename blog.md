@@ -14,7 +14,15 @@ description: "All my thoughts on research, software, philosophy, food, and life"
     <!-- Category Filter Tabs -->
     <nav class="category-filters" aria-label="Filter by category">
         <button class="filter-btn active" data-category="all">All</button>
-        {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
+        {% assign categories = "" | split: "" %}
+        {% for post in site.posts %}
+          {% for cat in post.categories %}
+            {% unless categories contains cat %}
+              {% assign categories = categories | push: cat %}
+            {% endunless %}
+          {% endfor %}
+        {% endfor %}
+        {% assign categories = categories | sort %}
         {% for cat in categories %}
         <button class="filter-btn" data-category="{{ cat | downcase }}">{{ cat | capitalize }}</button>
         {% endfor %}
@@ -66,7 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
             var visibleCount = 0;
 
             cards.forEach(function(card) {
-                if (category === 'all' || card.getAttribute('data-categories').indexOf(category) !== -1) {
+                var cardCats = card.getAttribute('data-categories').split(' ');
+                if (category === 'all' || cardCats.indexOf(category) !== -1) {
                     card.style.display = '';
                     visibleCount++;
                 } else {
