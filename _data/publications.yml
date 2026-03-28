@@ -16,14 +16,6 @@
   abstract: "A systematic literature review on measuring and implementing lexical alignment in dialogue systems, covering psycholinguistic foundations and computational approaches."
 
 # Conference Proceedings
-- title: "Weighted Decoding for Controlled Lexical Alignment in LLM-based Dialogues"
-  authors: "Sumit Srivastava, Mariët Theune, and Alejandro Catala"
-  venue: "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization (UMAP '26)"
-  year: 2026
-  type: conference
-  status: "Under Review"
-  abstract: "Proposes a weighted decoding method for controlling lexical alignment in Large Language Model-based dialogue generation."
-
 - title: "Trust in a Human-Computer Collaborative Task with or without Lexical Alignment"
   authors: "Sumit Srivastava, Mariët Theune, Alejandro Catala, and Chris Reed"
   venue: "Adjunct Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization (UMAP Adjunct '24)"

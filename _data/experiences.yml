@@ -9,11 +9,20 @@
     - MySQL
     - Cassandra
 
+- title: "Functional CTO (Part-time)"
+  company: "Ad:personam"
+  description: "Contributing to the entire platform backend end-to-end, including system design, development, infrastructure, and security."
+  technologies:
+    - Backend Development
+    - System Design
+    - Infrastructure
+    - Security
+
 - title: "Chief Technology Officer (Part-time)"
   company: "BrainBite.ai"
-  start_date: "2024-01"
-  end_date: "Present"
-  description: "Defining the technical vision and architecture for AI-powered content generation systems."
+  start_date: "2024-12"
+  end_date: "2025-09"
+  description: "Defined the technical vision and architecture for an AI-powered personalised learning platform."
   technologies:
     - Python
     - Large Language Models

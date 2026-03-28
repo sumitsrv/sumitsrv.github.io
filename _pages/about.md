@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="about-page-container">
   <aside class="about-sidebar">
-    <img src="{{ site.baseurl }}/assets/images/picofme5.png" alt="Sumit Srivastava" class="profile-image">
+    <img src="{{ site.baseurl }}/assets/images/sumit-srivastava-profile.jpg" alt="Sumit Srivastava" class="profile-image">
     <div class="social-links">
       <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="{{ site.social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
@@ -48,7 +48,7 @@ permalink: /about/
       <p>My doctoral research at the University of Twente focuses on conversational AI, specifically, how personalised explanations in chatbots, through lexical alignment, affect user trust, cognitive load, and comprehension. I have published in venues including ACM IUI, ACM UMAP, CUI, and the Computer Speech &amp; Language journal, with additional work under review at Cognitive Science. I have also supervised multiple MSc and BSc students throughout my academic career.</p>
 
       <h4>Industry Experience</h4>
-      <p>Currently, I serve as Senior Backend Engineer at Tibo Energy and Chief Technology Officer (part-time) at BrainBite.ai. Previously, at MiQ Digital, I led the development of large-scale, low-latency systems handling over one million requests per second with sub-millisecond response times.</p>
+      <p>Currently, I serve as Senior Backend Engineer at Tibo Energy, and contribute part-time as Functional CTO at Ad:personam, where I am responsible for the entire platform backend end-to-end, covering system design, development, infrastructure, and security. Previously, I was Chief Technology Officer (part-time) at BrainBite.ai, where I led the technical vision for an AI-powered personalised learning platform. Earlier, at MiQ Digital, I led the development of large-scale, low-latency systems handling over one million requests per second with sub-millisecond response times.</p>
 
       <h4>Technical Expertise</h4>
       <p>Large Language Models, Natural Language Generation, scalable backend architectures, distributed systems, and cross-functional technical leadership.</p>
