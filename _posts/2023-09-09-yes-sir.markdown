@@ -3,6 +3,7 @@ layout: modern-post
 title:  "Yes Sir!"
 author: sumit
 categories: [ philosophy ]
+image: assets/images/yes_sir.png
 tags: [featured]
 comments: true
 ---
