@@ -1,51 +1,83 @@
-# Jekyll Theme - Mundana by WowThemes.net
+# I Think Blah
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
+A personal blog by **Sumit** — thoughts on philosophy, education, intelligence, and life in general.
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
+> *"Hi, I am Sumit, and I think sometimes, often blah, I hope you like it!"*
 
-### Documentation
+🌐 **Live site:** [ithinkblah.com](https://www.ithinkblah.com)
 
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
+---
 
-### Contribute to Mundana repository
+## About
 
-1. In the top-right corner of this page, click **Fork**.
+**I Think Blah** is a Jekyll-powered blog featuring essays and reflections. Topics range from philosophy and privilege to education and the charm of old cities.
 
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
+## Tech Stack
 
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
+- [Jekyll](https://jekyllrb.com/) — static site generator
+- [GitHub Pages](https://pages.github.com/) — hosting (via the `github-pages` gem)
+- **Theme:** Based on [Mundana by WowThemes.net](https://github.com/wowthemesnet/mundana-theme-jekyll) (MIT license)
+- **Plugins:** jekyll-feed, jekyll-sitemap, jekyll-paginate, jekyll-seo-tag
 
-3. **Create a branch**: 
+## Local Development
 
-   `git checkout -b <my-new-feature-or-fix>`
+### Prerequisites
 
-4. **Make necessary changes and commit those changes**:
+- Ruby (with Bundler)
+- Git
 
-   `git add .`
+### Run locally
 
-   `git commit -m "new feature or fix"`
+```bash
+git clone https://github.com/<your-username>/ithinkblah.git
+cd ithinkblah
+bundle install
+bundle exec jekyll serve
+```
 
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
+The site will be available at `http://localhost:4000`.
 
-   `git push origin <add-your-branch-name>`
+### Using Docker
 
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
+```bash
+docker-compose up
+```
 
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+This starts a Jekyll server at `http://localhost:4000` with live-reload via polling.
 
+## Writing a New Post
 
-### Copyright
+Create a Markdown file in `_posts/` following the naming convention:
 
-Copyright (C) 2019 WowThemes.net.
+```
+YYYY-MM-DD-your-post-title.md
+```
 
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
+Front matter template:
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+```yaml
+---
+layout: post
+title: "Your Post Title"
+author: sumit
+categories: [ philosophy ]
+image: assets/images/your-image.png
+tags: [featured]
+---
+Your content here...
+```
 
-### Live Demo
+## Project Structure
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+```
+_posts/       # Blog posts (Markdown)
+_pages/       # Static pages (About, Contact, etc.)
+_layouts/     # HTML layout templates
+_includes/    # Reusable HTML partials
+assets/       # CSS, JS, and images
+_config.yml   # Site configuration
+```
+
+## License
+
+Theme originally by [Sal / WowThemes.net](https://www.wowthemes.net), released under the [MIT License](https://opensource.org/licenses/MIT).
