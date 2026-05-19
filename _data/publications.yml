@@ -2,9 +2,9 @@
 - title: "Your Word Against Mine: Lexical Alignment in Argumentative Dialogues with a Conversational Agent"
   authors: "Sumit Srivastava, Mariët Theune, Alejandro Catala, and Chris Reed"
   venue: "Cognitive Science"
-  year: 2025
+  year: 2026
   type: journal
-  status: "Under Review"
+  status: "Being revised for resubmission"
   abstract: "Investigates lexical alignment in argumentative dialogues between humans and conversational agents, examining how word choice adaptation affects persuasion and understanding."
 
 - title: "Measuring and Implementing Lexical Alignment: A Systematic Literature Review"
@@ -20,6 +20,7 @@
   authors: "Sumit Srivastava, Mariët Theune, Alejandro Catala, and Chris Reed"
   venue: "Adjunct Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization (UMAP Adjunct '24)"
   year: 2024
+  doi: "10.1145/3631700.3664868"
   type: conference
   abstract: "Examines the effect of lexical alignment by a conversational agent on user trust during a human-computer collaborative task."
 
@@ -27,6 +28,7 @@
   authors: "Sumit Srivastava, Mariët Theune, and Alejandro Catala"
   venue: "Proceedings of the 28th International Conference on Intelligent User Interfaces (ACM IUI '23)"
   year: 2023
+  doi: "10.1145/3581641.3584086"
   type: conference
   abstract: "Studies how lexical alignment in conversational agent explanations affects human understanding, cognitive load, and trust."
 
@@ -34,5 +36,6 @@
   authors: "Sumit Srivastava and Ramesh Chandra Tripathi"
   venue: "Human-Computer Interaction: 15th International Conference, HCI International 2013, Springer"
   year: 2013
+  doi: "10.1007/978-3-642-39330-3_53"
   type: conference
   abstract: "Presents a real-time virtual keyboard system using mono-vision and fingertip speed analysis for touchless human-computer interaction."

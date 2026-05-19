@@ -31,9 +31,9 @@
 
 - title: "Doctoral Researcher"
   company: "University of Twente"
-  start_date: "2020-01"
-  end_date: "2024-12"
-  description: "Conducted NLP research on personalization in conversational agents using lexical alignment, grounded in psycholinguistics and cognitive science. Designed and implemented conversational agents for generating interactive, personalized textual explanations. Conducted empirical user studies evaluating trust, persuasiveness, cognitive load, and information uptake. Supervised eight MSc and BSc students. Marie Skłodowska-Curie fellow (NL4XAI)."
+  start_date: "2020-09"
+  end_date: "Present (Full-time: Sep 2020 – Nov 2024 · Part-time: 2025 – Present)"
+  description: "Conducted NLP research on personalization in conversational agents using lexical alignment, grounded in psycholinguistics and cognitive science. Designed and implemented conversational agents for generating interactive, personalized textual explanations. Conducted empirical user studies evaluating trust, persuasiveness, cognitive load, and information uptake. Supervised eight MSc and BSc students. Marie Skłodowska-Curie fellow (EU-funded NL4XAI project)."
   technologies:
     - Python
     - NLP
@@ -59,7 +59,7 @@
   company: "MiQ Digital"
   start_date: "2016-01"
   end_date: "2019-08"
-  description: "Led and mentored a team of seven engineers while owning seven production services. Revamped a real-time ad bidding platform handling 1.5M RPS, achieving sub-2ms p99 latency via event-driven architecture and database optimizations. Defined company-wide code and documentation standards."
+  description: "Led and mentored a team of seven engineers while owning seven production services. Revamped a real-time ad bidding platform handling 1.5M RPS, achieving sub-2ms p99 latency via event-driven architecture and database optimizations. Defined company-wide code and documentation standards. Contributed performance improvements to an open-source PostgreSQL library"
   technologies:
     - Java
     - Vert.x

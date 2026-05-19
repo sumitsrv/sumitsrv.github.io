@@ -35,7 +35,7 @@ permalink: /software/
     </section>
 
     <section class="projects-section">
-        <h2>Open Source Projects</h2>
+        <h2>Selected Projects</h2>
         {% assign projects = site.data.projects %}
         {% if projects.size > 0 %}
         {% for project in projects %}

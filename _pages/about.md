@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="about-page-container">
   <aside class="about-sidebar">
-    <img src="{{ site.baseurl }}/assets/images/sumit-srivastava-profile.jpg" alt="Sumit Srivastava" class="profile-image">
+    <img src="{{ site.baseurl }}/assets/images/sumit-srivastava-profile.jpg" alt="Sumit Srivastava" class="profile-image" />
     <div class="social-links">
       <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="{{ site.social.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
@@ -39,19 +39,16 @@ permalink: /about/
       <h3>And Yes, Food</h3>
       <p>I love food. Everyone should. It is such a beautiful thing, to make it, smell it, share it. Some of my happiest moments are in the kitchen, experimenting with recipes that are kind to the body and generous to the soul. You will find some of that here too.</p>
 
-      <hr style="margin: 2em 0;">
+      <hr style="margin: 2em 0;" />
 
       <h3>The Professional Me</h3>
-      <p>I am a computer scientist and AI researcher with over four years of academic research in Natural Language Processing, Explainable AI, and Human-Computer Interaction, complemented by more than seven years of industry experience in software engineering and technical leadership.</p>
+      <p>I am a computer scientist and AI researcher. My doctoral research, at the University of Twente, focuses on personalisation in human–AI dialogue, using NLP and HCI methods grounded in psycholinguistics and cognitive science. The PhD defence is pending. Alongside the research, I bring more than eight years of industry experience leading engineering teams and delivering large-scale production systems.</p>
 
       <h4>Academic Research</h4>
-      <p>My doctoral research at the University of Twente focuses on conversational AI, specifically, how personalised explanations in chatbots, through lexical alignment, affect user trust, cognitive load, and comprehension. I have published in venues including ACM IUI, ACM UMAP, CUI, and the Computer Speech &amp; Language journal, with additional work under review at Cognitive Science. I have also supervised multiple MSc and BSc students throughout my academic career.</p>
+      <p>My doctoral research at the University of Twente focuses on conversational AI, specifically, how personalised explanations in chatbots, through lexical alignment, affect user trust, cognitive load, and comprehension. The PhD is funded by a Marie Skłodowska-Curie fellowship under the EU-funded NL4XAI project. I have published in venues including ACM IUI, ACM UMAP, and the Computer Speech & Language journal, with further work under review at SigDial 2026 and being revised for resubmission to Cognitive Science. I have supervised eight MSc and BSc students.</p>
 
       <h4>Industry Experience</h4>
-      <p>Currently, I serve as Senior Backend Engineer at Tibo Energy, and contribute part-time as Functional CTO at Ad:personam, where I am responsible for the entire platform backend end-to-end, covering system design, development, infrastructure, and security. Previously, I was Chief Technology Officer (part-time) at BrainBite.ai, where I led the technical vision for an AI-powered personalised learning platform. Earlier, at MiQ Digital, I led the development of large-scale, low-latency systems handling over one million requests per second with sub-millisecond response times.</p>
-
-      <h4>Technical Expertise</h4>
-      <p>Large Language Models, Natural Language Generation, scalable backend architectures, distributed systems, and cross-functional technical leadership.</p>
+      <p>Currently, I am Senior Backend Engineer at Tibo Energy, where I design and maintain features for an industrial energy management platform. Previously, I served as Chief Technology Officer (part-time) at BrainBite.ai, defining the technical vision and architecture for AI-powered content generation. Earlier, at MiQ Digital, I led a team of seven engineers and revamped a real-time ad bidding platform handling 1.5M requests per second with sub-2ms p99 latency, using event-driven architecture and database optimisations.</p>
 
       <div class="cta-buttons" style="margin:1.5em 0;">
         <a href="{{ site.social.linkedin }}" class="btn btn-secondary" target="_blank">LinkedIn</a>
@@ -59,30 +56,24 @@ permalink: /about/
         <a href="{{ site.baseurl }}/CV_Sumit_Srivastava_NLP_Research-12.pdf" class="btn btn-primary" target="_blank">Curriculum Vitae</a>
       </div>
 
-      <h3>Research Interests</h3>
-      <ul>
-        <li><strong>Natural Language Processing</strong>: Conversational AI, lexical alignment, and dialogue systems</li>
-        <li><strong>Explainable AI</strong>: Personalized explanations and user trust in AI systems</li>
-        <li><strong>Human-Computer Interaction</strong>: Cognitive load and user experience in AI interfaces</li>
-        <li><strong>Software Engineering</strong>: Scalable architectures and distributed systems</li>
-      </ul>
 
       <h3>Recent Publications & Activities</h3>
       <div class="recent-activity">
         <div class="section">
           <h4>Latest Research Publication</h4>
           {% for pub in site.data.publications limit:1 %}
-          <p><strong>{{ pub.title }}</strong><br>
+          <p><strong>{{ pub.title }}</strong><br/>
           <em>{{ pub.venue }}</em> ({{ pub.year }}){% if pub.status %}, <em>{{ pub.status }}</em>{% endif %}</p>
           {% endfor %}
         </div>
-      </div>
-      <div class="section">
-        <h4>Recent Blog Post</h4>
-        {% for post in site.posts limit:1 %}
-        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
-        <small>{{ post.date | date: "%B %d, %Y" }}</small></p>
-        {% endfor %}
+
+        <div class="section">
+          <h4>Recent Blog Post</h4>
+          {% for post in site.posts limit:1 %}
+          <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
+          <small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+          {% endfor %}
+        </div>
       </div>
 
     </div>
