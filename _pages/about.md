@@ -57,7 +57,7 @@ permalink: /about/
       </div>
 
 
-      <h3>Recent Publications & Activities</h3>
+      <h3>Recent Publications &amp; Activities</h3>
       <div class="recent-activity">
         <div class="section">
           <h4>Latest Research Publication</h4>
