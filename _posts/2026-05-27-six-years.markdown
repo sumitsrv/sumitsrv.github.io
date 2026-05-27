@@ -1,0 +1,47 @@
+---
+layout: modern-post
+title:  "Six years"
+author: sumit
+categories: [ personal ]
+image: 
+tags: [featured]
+comments: true
+---
+Six years ago, in 2020, I started a PhD. The person who began it and the person writing this are not quite the same person, and the distance between the two is most of what I want to set down here.
+
+I started with a clear idea of what I was there to do. I would build something big and impressive. I had always been a builder, and I assumed a PhD was simply the largest version of that: a system, a product, a thing that worked and that people could point at. I was wrong, and I stayed wrong for a long time.
+
+A PhD, I learned slowly, is about asking questions. It is about narrowing a question until it is small enough to answer well, and then answering it well. I did not know this, so I took the first two years lightly. I did not read enough papers. I would read one or two and then start designing experiments, as though the reading were a formality to get past. When my advisor asked me to do the statistical analysis for my first study, on alignment and understanding, I remember thinking, quite literally, "what is that?" I had no idea what she meant. I was also a poor writer. I am still not a good one, but I am several times better than I was, and most of that improvement came from finally accepting that the writing is the work, and not a tax on it.
+
+There were more expensive versions of the same mistake. For about nine months I built a data-collection portal for a study I had planned with colleagues at NL4XAI. It never worked the way the study needed it to, and in the end it came to nothing. The technical failure was not the real problem. The real problem was that I was slow to fail. I did not know how to look at something that was not working, say so early, and move on. I held on instead. For most of those early years, I could not have told you which way my PhD was actually heading.
+
+None of this was happening in isolation. Through those same years I was having severe panic attacks, one of them serious enough that an ambulance was called. That led to a diagnosis of OCPD and generalised anxiety disorder, and to therapy. It was also the period in which I learned that I carry the gene for Huntington's disease.
+
+In our third year, my wife and I decided to have a child. The pregnancy did not continue past three months, because he carried the gene for Huntington's. It was December 2022, over the Christmas holidays. No one else knew. It was the two of us, in a hospital.
+
+The change in my work, when it came, was gradual and then unmistakable. Between July and September 2023 I spent time at the ArgTech lab, and it was the most productive stretch of my PhD. By then I understood linguistic alignment properly. I could hold it in view from several theoretical perspectives at once, including what it means for human language and how language has evolved. I was, at last, becoming a researcher.
+
+Therapy helped that, and the research helped the therapy in return. Studying how human beings converse taught me something I needed as a person. Every human carries a view of the world that is their own, built out of their experiences and their environment. That is why it matters to talk, and to talk well. Different opinions are not a fault to be corrected out of a conversation. They are normal, and they are part of how a society grows, because they carry perspectives no single person holds on their own. I had been aggressive about my own ideas and arrogantly dismissive of other people's. I became less so. I do not think I would have learned that as clearly anywhere outside this particular research.
+
+In October 2023 we began IVF with pre-implantation genetic testing, so that our next child would not carry the Huntington's gene. He was due in July 2024.
+
+By early 2024 a different anxiety had taken hold of me. Huntington's had handed me a question I could not put down: how long will I be able to work, and what happens to my family when I no longer can? I decided I needed either a job or a company of my own, something that could give us financial independence. The feeling only grew. I was anxious almost all the time. I went into interviews and did not do well in them. And when I looked clearly at the market, around September 2024, the picture was plain. What it wanted was large language models and generative AI. For a researcher whose work sat outside generative AI, there was very little room. Academia was not an option either. My OCPD made me afraid of standing in front of a room of students, afraid that if I failed as a teacher I would damage their futures. And academic salaries, set against the timeline Huntington's had given me, would never add up to the security I was trying to build.
+
+My son was born on 28 July 2024. He was born with conditions that did not yet have names. After several hospital stays, some of them weeks long, he was diagnosed in October 2024 with early infantile epileptic and developmental encephalopathy, caused by a mutation in the PIGA gene. It is extremely rare. There are around seventy known cases in the world, and he was the second in the Netherlands. He was completely disabled, both cognitively and physically.
+
+We sank. What helped me, in a way I did not expect, was the part of me that the PhD had built. I had spent years thinking about language and about human beings as things that evolve, as natural phenomena, and that habit of mind let me hold what had happened to my son as a natural phenomenon as well, rather than as something singled out and aimed at us. It did not make any of it lighter. But it gave me a place to stand. My anxiety, though, kept climbing. My wife could not work. My son needed care and monitoring twenty-four hours a day.
+
+I kept going. In February 2025 I found a job at Tibo Energy, through a colleague who referred me, although I still felt stuck, unsure that my career was moving anywhere at all. In December 2024 I had also taken on the role of CTO at BrainBite, part-time and unpaid. That did not last. We parted ways in September 2025, over a difference in priorities. In that same month I was officially diagnosed with depression. I was worried every hour of every day.
+
+Then there was the visa. Mine was due to expire in November 2025. If it lapsed, we would have to move to India, and my son could not travel. Even transporting him would have cost more than ten thousand euros, and life in India would have been harder for him than life here, where we could at least take him outside in his carriage. Out of something close to desperation, I learned about permanent residency. I pushed my Dutch up to an A2 level in fifteen days, which was only possible because of two and a half years of Duolingo sitting behind it. The visa came through.
+
+My son's condition kept worsening. In January 2026 we decided to let him go. On 12 January his medication was stopped, and so was his food, which he had always taken through a nasal tube. On 17 January, at 1:59 in the morning, he passed away, with my wife and me each holding one of his hands. It was hard to carry him in my arms to the morgue. We donated his body to a medical college, for research. Our brave son. Our soldier.
+
+The PhD, the thing all of this began as, is still unfinished; my defence is ahead of me. If I try to say how I think I did, the answer is mixed. I began the PhD the wrong way, and I stayed on the wrong way for too long. I lost time, including those nine months, and I learned every important lesson later than I should have. But I did learn them. By the end I was doing work I can stand behind, and I had become someone who understands what research is, which is not the person who arrived in 2020. I am not sure that adds up to a clean verdict. Perhaps the defence will give me one. Perhaps it will not, and that will have to be all right too.
+
+And life moves on. One of the things these six years taught me, and it is not a comfortable thing to know, is that choices are a privilege. Not everyone is given them, and you are not given them in every season of a life.
+
+I still love research. I love that human beings converse at all, that we have this strange and intricate thing, built up over thousands of years, for reaching across the gap between one mind and another. It is what I have spent six years studying, and it still seems remarkable to me.
+
+I do not know where life will take me, or my family. Six years ago I would have found that sentence unbearable. Today I can write it down.
+
