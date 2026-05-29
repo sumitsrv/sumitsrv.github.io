@@ -1,14 +1,14 @@
 ---
 layout: modern-default
-title: "Software Development"
-description: "My software development projects and professional experience"
-permalink: /software/
+title: "Software Engineering & Leadership"
+description: "My software engineering and leadership projects and professional experience"
+permalink: /engineering/
 ---
 
 <div class="container">
     <div class="section-header">
-        <h1>Software Development</h1>
-        <p class="lead">A showcase of my software development journey, projects, and professional experience.</p>
+        <h1>Software Engineering & Leadership</h1>
+        <p class="lead">A showcase of my software engineering and leadership journey, projects, and professional experience.</p>
     </div>
 
     <section class="experience-section">
