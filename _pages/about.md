@@ -32,8 +32,8 @@ permalink: /about/
       <p>I was never a great student, yet I had enough chances to course-correct my life. And I did. But these children, bright, hungry to learn, did not even have enough to live their dream of going to high school. That was the turning point. I left my industry job and moved to research, determined to do something useful in AI for education.</p>
 
       <h3>What Research Taught Me</h3>
-      <p>Did I change the world? Honestly, no, not in any grand way. But my PhD changed <em>me</em>. I fell in love with language research, the sheer depth of it. How language shaped civilisations, cultures, food, relationships, world views. How it sits at the core of evolution. How it connects to game theory, to power, to identity.</p>
-      <p>Research also taught me the value of perspective. Everyone carries a different world view, and so everything is relative. We do not need to go to war over our differences, we just need to sit around a table, eat food, and talk. With respect. With an open mind. Peace is possible. But world leaders do not seem to care. We are hurtling towards climate disasters. Religion, which at its core is meant to give people hope, is wielded as a weapon instead. And so it goes.</p>
+      <p>Did I change the world? Honestly, no, not in any grand way. But my PhD changed me. I fell in love with language research, the sheer depth of it. How language shaped civilisations, cultures, food, relationships, world views. How it sits at the core of evolution. How it connects to game theory, to power, to identity.</p>
+      <p>Research also taught me the value of perspective. Everyone carries a different world view, and so everything is relative. We do not need to go to war over our differences, we just need to sit around a table, eat food, and talk. With respect. With an open mind. Peace is possible. We do not always choose it, and some of what I see in the world makes that hard to hold onto. But I would rather keep believing it, and keep questioning, than give up on it.</p>
       <p>There is so much more to talk about. It will come sooner than later.</p>
 
       <h3>And Yes, Food</h3>
@@ -42,13 +42,8 @@ permalink: /about/
       <hr style="margin: 2em 0;" />
 
       <h3>The Professional Me</h3>
-      <p>I am a computer scientist and AI researcher. My doctoral research, at the University of Twente, focuses on personalisation in human–AI dialogue, using NLP and HCI methods grounded in psycholinguistics and cognitive science. The PhD defence is pending. Alongside the research, I bring more than eight years of industry experience leading engineering teams and delivering large-scale production systems.</p>
-
-      <h4>Academic Research</h4>
-      <p>My doctoral research at the University of Twente focuses on conversational AI, specifically, how personalised explanations in chatbots, through lexical alignment, affect user trust, cognitive load, and comprehension. The PhD is funded by a Marie Skłodowska-Curie fellowship under the EU-funded NL4XAI project. I have published in venues including ACM IUI, ACM UMAP, and the Computer Speech & Language journal, with further work under review at SigDial 2026 and being revised for resubmission to Cognitive Science. I have supervised eight MSc and BSc students.</p>
-
-      <h4>Industry Experience</h4>
-      <p>Currently, I am Senior Backend Engineer at Tibo Energy, where I design and maintain features for an industrial energy management platform. Previously, I served as Chief Technology Officer (part-time) at BrainBite.ai, defining the technical vision and architecture for AI-powered content generation. Earlier, at MiQ Digital, I led a team of seven engineers and revamped a real-time ad bidding platform handling 1.5M requests per second with sub-2ms p99 latency, using event-driven architecture and database optimisations.</p>
+      <p>I'm a computer scientist working across AI research and engineering. My doctoral research at the University of Twente (defence 2026) studies personalisation in human–AI dialogue: how a conversational agent's choice of words shapes user trust, comprehension, persuasion, and cognitive load. It combines controlled user studies with computational dialogue modelling, grounded in psycholinguistics and cognitive science, and is funded by a Marie Skłodowska-Curie fellowship under the EU NL4XAI project. I have published at ACM IUI, ACM UMAP, and Computer Speech & Language, with further work under review at SigDial 2026 and in revision for Cognitive Science, and I have supervised eight MSc and BSc students.</p>
+      <p>Alongside research, I bring over a decade of industry experience building and leading large-scale software. I'm currently a Senior Backend Engineer at Tibo Energy, and previously served as part-time CTO at BrainBite, setting the technical direction for AI-powered content generation. Earlier, at MiQ Digital, I led a team of seven engineers and re-architected a real-time ad-bidding platform handling 1.5M requests per second at sub-2ms p99 latency.</p>
 
       <div class="cta-buttons" style="margin:1.5em 0;">
         <a href="{{ site.social.linkedin }}" class="btn btn-secondary" target="_blank">LinkedIn</a>
