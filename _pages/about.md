@@ -47,7 +47,7 @@ permalink: /about/
 
       <div class="cta-buttons" style="margin:1.5em 0;">
         <a href="{{ site.social.linkedin }}" class="btn btn-secondary" target="_blank">LinkedIn</a>
-        <a href="{{ site.baseurl }}/engineering" class="btn btn-secondary">Engineering</a>
+        <a href="{{ site.baseurl }}/research" class="btn btn-secondary">Research</a>
         <a href="{{ site.baseurl }}/CV_Sumit_Srivastava_NLP_Research-12.pdf" class="btn btn-primary" target="_blank">Curriculum Vitae</a>
       </div>
 

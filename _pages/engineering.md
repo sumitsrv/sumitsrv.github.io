@@ -6,7 +6,7 @@ permalink: /engineering/
 ---
 <div class="container">
     <div class="section-header">
-        <h1>Engineering</h1>
+        <h1>Software Engineering & Leadership</h1>
         <p class="lead">A showcase of my software engineering and leadership journey, projects, and professional experience.</p>
     </div>
     <section class="experience-section">
