@@ -1,7 +1,7 @@
 # Site Settings
 title: Sumit Srivastava
 name: 'Sumit Srivastava'
-description: 'Research • Software Development • Philosophy • Food'
+description: 'Research • Software Engineering • Philosophy • Food'
 
 # Google Analytics
 google_analytics: G-XXXXXXXXXX # Replace with your Google Analytics tracking ID
@@ -26,8 +26,8 @@ navigation:
     url: /about/
   - title: Research
     url: /research/
-  - title: Software
-    url: /software/
+  - title: Engineering
+    url: /engineering/
   - title: Blog
     url: /blog/
   - title: Contact
@@ -86,7 +86,7 @@ authors:
       name:           Sumit
       site:           https://sumitsrv.github.io
       avatar:         assets/images/sumit-srivastava-profile.jpg
-      bio:            "Hi, I am Sumit, and I think sometimes, often blah, I hope you like it!"
+      bio:            "Hi, I am Sumit."
       email:  srv.sumit@gmail.com
       twitter:        https://twitter.com/sumsrvt
       social:
