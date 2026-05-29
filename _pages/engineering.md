@@ -1,16 +1,14 @@
 ---
 layout: modern-default
-title: "Software Engineering & Leadership"
+title: "Engineering & Leadership"
 description: "My software engineering and leadership projects and professional experience"
 permalink: /engineering/
 ---
-
 <div class="container">
     <div class="section-header">
-        <h1>Software Engineering & Leadership</h1>
+        <h1>Engineering</h1>
         <p class="lead">A showcase of my software engineering and leadership journey, projects, and professional experience.</p>
     </div>
-
     <section class="experience-section">
         <h2>Professional Experience</h2>
         {% assign experiences = site.data.experiences %}
@@ -18,7 +16,7 @@ permalink: /engineering/
         {% for exp in experiences %}
         <div class="experience-item">
             <h3>{{ exp.title }} at {{ exp.company }}</h3>
-            <p><em>{{ exp.start_date }} – {{ exp.end_date }}</em></p>
+            <p><em>{{ exp.start_date }} &ndash; {{ exp.end_date }}</em></p>
             <p>{{ exp.description }}</p>
             <h4>Technologies used:</h4>
             <ul>
@@ -33,7 +31,6 @@ permalink: /engineering/
         <p>Experience data is being updated. Please check back soon.</p>
         {% endif %}
     </section>
-
     <section class="projects-section">
         <h2>Selected Projects</h2>
         {% assign projects = site.data.projects %}
@@ -51,7 +48,6 @@ permalink: /engineering/
         <p>Projects data is being updated. Please check back soon.</p>
         {% endif %}
     </section>
-
     <section class="skills-section">
         <h2>Technical Skills</h2>
         <ul>
@@ -62,7 +58,7 @@ permalink: /engineering/
             <li><strong>Cloud & Infrastructure:</strong> AWS (S3, Redshift), Google Cloud, Docker, Git, Linux</li>
             <li><strong>Research:</strong> Experiment Design, Statistical Analysis, Scientific Writing, User Studies</li>
         </ul>
-        
+
         <p>For more details about my professional experience, please visit my <a href="https://www.linkedin.com/in/sumit-srv">LinkedIn profile</a>.</p>
     </section>
 </div>

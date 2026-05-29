@@ -2,13 +2,13 @@
 layout: modern-default
 permalink: /blog/
 title: "Blog"
-description: "All my thoughts on research, software, philosophy, food, and life"
+description: "All my thoughts on research, engineering, philosophy, food, and life"
 ---
 
 <div class="container blog-page">
     <section class="blog-header">
         <h1>Blog</h1>
-        <p class="blog-lead">Thoughts on research, software development, philosophy, food, and life in general.</p>
+        <p class="blog-lead">Thoughts on research, engineering, philosophy, food, and life in general.</p>
     </section>
 
     <!-- Category Filter Tabs -->

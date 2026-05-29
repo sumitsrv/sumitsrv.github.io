@@ -45,11 +45,9 @@
                 </a>
                 
                 <div class="nav-links" id="navLinks">
-                    <a href="{{ site.baseurl }}/about/" class="nav-link">About</a>
-                    <a href="{{ site.baseurl }}/research/" class="nav-link">Research</a>
-                    <a href="{{ site.baseurl }}/software/" class="nav-link">Software</a>
-                    <a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a>
-                    <a href="{{ site.baseurl }}/contact/" class="nav-link">Contact</a>
+                    {% for link in site.navigation %}
+                    <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link">{{ link.title }}</a>
+                    {% endfor %}
                     <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle dark mode">
                         <i class="fas fa-moon"></i>
                     </button>
