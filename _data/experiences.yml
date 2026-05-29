@@ -2,72 +2,85 @@
   company: "Tibo Energy"
   start_date: "2025-02"
   end_date: "Present"
-  description: "Designing, implementing, and maintaining features for an industrial energy-management platform."
+  description: "Designing, implementing, and maintaining backend features and services for an industrial energy-management platform, building service-layer logic and data models across a TypeScript and Node.js stack backed by MySQL and Cassandra."
   technologies:
     - TypeScript
     - Node.js
     - MySQL
     - Cassandra
+    - REST APIs
 - title: "Chief Technology Officer (Part-time)"
   company: "BrainBite.ai"
   start_date: "2024-12"
   end_date: "2025-09"
-  description: "Defined the technical vision and architecture for an AI-powered personalised learning platform, including LLM-based content generation and its evaluation."
+  description: "Defined the company's technology goals and owned the architecture decisions for its AI vertical on an AI-powered personalised learning platform. Led reliability improvements across LLM-based content-generation modules, and established both automatic and manual evaluation methodologies, including LLM-as-a-judge and red-teaming, to measure and improve the quality and safety of the AI systems."
   technologies:
     - Python
     - Large Language Models
-    - GenAI
+    - RAG
+    - LLM-as-a-Judge
+    - Red Teaming
+    - Evaluation Design
     - System Architecture
 - title: "Fractional CTO (Part-time)"
   company: "ad:personam GmbH"
   start_date: "2021-01"
   end_date: "Present"
-  description: "Building and owning the platform backend end-to-end: system design, development, infrastructure, and security."
+  description: "Built the first MVP and designed and developed the web application for a self-serve programmatic-advertising Demand-Side Platform (DSP). Delivered the backend end-to-end, including third-party integrations (Xandr, Stripe, OpenAI), CI/CD pipelines, and AWS VPC-based security, and later led the migration of the infrastructure to Microsoft Azure. Owned infrastructure policy, security and privacy, and cost management, and guided the hiring and management of technical staff."
   technologies:
-    - Backend Development
-    - System Design
-    - Infrastructure
-    - Security
+    - Java (8/17)
+    - Spring Boot
+    - MySQL
+    - AWS (VPC, Lambda, API Gateway, Cognito)
+    - Microsoft Azure
+    - OpenAI / RAG
+    - REST APIs
+    - CI/CD
 - title: "Doctoral Researcher"
   company: "University of Twente"
   start_date: "2020-09"
   end_date: "Present (full-time to 2024, part-time since)"
-  description: "Researched personalisation in conversational agents through lexical alignment, grounded in psycholinguistics and cognitive science. Designed and built conversational agents that generate interactive, personalised explanations, and ran empirical user studies measuring trust, persuasiveness, cognitive load, and information uptake. Supervised eight MSc and BSc students. Marie Skłodowska-Curie fellow under the EU-funded NL4XAI project."
+  description: "Studied how conversational agents can adapt their language to individual users, through lexical alignment, to improve trust, comprehension, and persuasion, combining controlled user experiments with computational dialogue modelling and grounded in psycholinguistics and cognitive science. Designed and built conversational agents that generate interactive, personalised explanations, and developed weighted-decoding methods for controllable lexical alignment with large language models such as Llama, Phi, and BlenderBot (under review at SigDial 2026). Ran empirical, between-subjects user studies measuring trust, persuasiveness, cognitive load, and information uptake. Supervised eight MSc and BSc students, and published at ACM IUI, ACM UMAP, and Computer Speech & Language. Marie Skłodowska-Curie fellow under the EU-funded NL4XAI project."
   technologies:
     - Python
     - NLP
-    - Large Language Models
+    - Large Language Models (Llama, Phi, BlenderBot)
+    - Weighted Decoding
     - Rasa
     - PyTorch
     - spaCy
     - Experiment Design
+    - Statistical Analysis
     - Scientific Writing
 - title: "MSc Researcher in Artificial Intelligence"
   company: "KU Leuven"
   start_date: "2019-09"
   end_date: "2020-05"
-  description: "Conducted research on automated interpretation of simple metaphors using Bayesian inference (Rational Speech Act model) and a large-scale concept map (ConceptNet). Proposed and developed the research topic independently."
+  description: "Researched the automatic interpretation of simple metaphors, modelling pragmatic inference with a Bayesian Rational Speech Act framework over ConceptNet as a large-scale knowledge graph. Proposed and developed the research topic independently. Graduated Cum Laude."
   technologies:
     - Python
     - Bayesian Inference
+    - Rational Speech Act
     - NLP
     - ConceptNet
+    - Knowledge Graphs
 - title: "Team Manager & Technical Lead"
   company: "MiQ Digital"
   start_date: "2017-01"
   end_date: "2019-09"
-  description: "Led and mentored a team of seven engineers while owning seven production services. Revamped a real-time ad bidding platform handling 1.5M RPS, achieving sub-2ms p99 latency via event-driven architecture and database optimisations. Defined company-wide code and documentation standards. Contributed performance improvements to an open-source PostgreSQL library."
+  description: "Led and mentored a team of seven engineers and owned seven production services. Re-architected a real-time ad-bidding platform to handle 1.5M requests per second at sub-2ms p99 latency, using an event-driven architecture and database optimisations. Defined company-wide code and documentation standards, and contributed performance improvements to an open-source PostgreSQL library."
   technologies:
     - Java
     - Vert.x
     - PostgreSQL
     - AWS
     - Nginx
+    - Event-Driven Architecture
 - title: "Senior Software Engineer"
   company: "MiQ Digital"
   start_date: "2015-01"
   end_date: "2016-12"
-  description: "Developed a real-time bid modification service processing up to 1.5M requests per second. Modernised 70% of a core interface service through refactoring, library upgrades, and improved modularity. Built a horizontally scalable system to compress and ship up to 90 TB of logs daily to AWS S3."
+  description: "Developed a real-time bid-modification service processing up to 1.5M requests per second. Modernised 70% of a core interface service through refactoring, library upgrades, and improved modularity. Built a horizontally scalable pipeline to compress and ship up to 90 TB of logs per day to AWS S3."
   technologies:
     - Java
     - AWS S3
@@ -77,19 +90,20 @@
   company: "MiQ Digital"
   start_date: "2013-09"
   end_date: "2014-12"
-  description: "Designed a data ingestion service supporting 12+ protocols and 30+ heterogeneous data sources. Implemented custom processing pipelines storing data in AWS S3 and Redshift. Mentored new engineers and contributors."
+  description: "Designed a data-ingestion service supporting 12+ protocols and 30+ heterogeneous data sources, with custom processing pipelines persisting data to AWS S3 and Redshift. Mentored new engineers and contributors."
   technologies:
     - Java
-    - AWS Redshift
     - AWS S3
+    - AWS Redshift
     - Data Pipelines
 - title: "Software Engineer"
   company: "Apostek Softwares Pvt. Ltd."
   start_date: "2012-07"
   end_date: "2013-08"
-  description: "Worked on a mobile advertising platform and central point currency system. Developed critical enhancements, bug fixes, and new features across different portals."
+  description: "Built and maintained a mobile advertising platform and a points-based rewards system, in which users earn points for watching ads and redeem them for rewards. Delivered critical enhancements, bug fixes, and new features across multiple portals using Ruby on Rails with Cassandra and MySQL, and HTML, CSS, and JavaScript for the interfaces."
   technologies:
     - Ruby on Rails
     - Cassandra
     - MySQL
     - JavaScript
+    - HTML/CSS
