@@ -1,0 +1,28 @@
+{% if site.visitor_counter.enabled %}
+<!-- Visitor Counter with Country Tracking -->
+<div class="visitor-counter-container">
+  {% if site.visitor_counter.service == 'flagcounter' %}
+    <!-- Flag Counter - Shows unique visitors by country with flags -->
+    <a href="https://info.flagcounter.com/{{ site.visitor_counter.flagcounter_id }}" target="_blank">
+      <img src="https://s01.flagcounter.com/count2/{{ site.visitor_counter.flagcounter_id }}/bg_{{ site.visitor_counter.background_color | default: 'FFFFFF' }}/txt_{{ site.visitor_counter.text_color | default: '000000' }}/border_{{ site.visitor_counter.border_color | default: 'CCCCCC' }}/columns_{{ site.visitor_counter.columns | default: 3 }}/maxflags_{{ site.visitor_counter.maxflags | default: 12 }}/viewers_{{ site.visitor_counter.label | default: 'Visitors' }}/labels_0/pageviews_0/flags_0/percent_0/" 
+           alt="Flag Counter" 
+           border="0"
+           loading="lazy">
+    </a>
+  {% elsif site.visitor_counter.service == 'clustrmaps' %}
+    <!-- ClustrMaps - Shows visitor map with country breakdown -->
+    <div class="clustrmaps-widget">
+      <script type="text/javascript" id="clstr_globe" src="https://cdn.clustrmaps.com/globe.js?d={{ site.visitor_counter.clustrmaps_id }}"></script>
+    </div>
+  {% elsif site.visitor_counter.service == 'goatcounter' %}
+    <!-- GoatCounter - Privacy-friendly analytics -->
+    <div class="goatcounter-widget">
+      <script data-goatcounter="https://{{ site.visitor_counter.goatcounter_id }}.goatcounter.com/count"
+              async src="https://gc.zgo.at/count.js"></script>
+    </div>
+  {% elsif site.visitor_counter.service == 'custom' %}
+    <!-- Custom HTML for visitor counter -->
+    {{ site.visitor_counter.custom_html }}
+  {% endif %}
+</div>
+{% endif %}

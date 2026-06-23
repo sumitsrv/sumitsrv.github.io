@@ -5,6 +5,35 @@ description: 'Research • Engineering • Philosophy • Food'
 
 # Google Analytics
 google_analytics: G-XXXXXXXXXX # Replace with your Google Analytics tracking ID
+
+# Visitor Counter with Country Tracking
+# Supported services: 'flagcounter', 'clustrmaps', 'goatcounter', 'custom'
+visitor_counter:
+  enabled: true
+  service: 'flagcounter'  # Options: 'flagcounter', 'clustrmaps', 'goatcounter', 'custom'
+  
+  # Flag Counter settings (https://flagcounter.com/)
+  # To get your flagcounter_id:
+  # 1. Visit https://flagcounter.com/
+  # 2. Click "Get your Flag Counter"
+  # 3. Customize appearance and copy the code
+  # 4. Extract the ID from the URL (e.g., if URL contains 'count2/aBcD', use 'aBcD')
+  flagcounter_id: 'aBcD'  # Replace with your actual Flag Counter ID
+  columns: 3              # Number of columns to display flags
+  maxflags: 12            # Maximum number of country flags to show
+  label: 'Visitors'       # Label text to display
+  background_color: 'FFFFFF'  # Background color in hex (without #)
+  text_color: '000000'        # Text color in hex (without #)
+  border_color: 'CCCCCC'      # Border color in hex (without #)
+  
+  # ClustrMaps settings (https://clustrmaps.com/) - Alternative option
+  # clustrmaps_id: 'your-clustrmaps-id'
+  
+  # GoatCounter settings (https://goatcounter.com/) - Privacy-friendly alternative
+  # goatcounter_id: 'your-site-name'
+  
+  # Custom HTML - For any other counter service
+  # custom_html: '<your custom counter code here>'
 baseurl: ""
 url: "https://sumitsrv.github.io"
 logo: 'assets/images/sumit-srivastava-profile.jpg'
