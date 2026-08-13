@@ -109,7 +109,21 @@ defaults:
       path: "_pages"
     values:
       layout: modern-default
-      
+
+  # role-specific CVs: shared by link only, so keep them out of sitemap.xml
+  - scope:
+      path: "assets/CV_AI_Lead.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/CV_Research.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/CV_Ux_researcher.pdf"
+    values:
+      sitemap: false
+
 # Theme Settings
 theme_skin: classic # classic, dark, modern
 dark_mode_toggle: true
